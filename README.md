@@ -3,10 +3,7 @@ The design variables, objective functions and constraint functions are already d
 1. The Pressure Vessel Design Problem Formulation.
 1.1 The Design Variables.
 There are four(4) design variables:
-  1. The thickness of the shell (Ts).
-  2. The thickness of the head (Th).
-  3. The inner radius (R).
-  4. The length of the cylindrical section of the vessel, not including the head (L).
+  The thickness of the shell (Ts), The thickness of the head (Th), The inner radius (R), The length of the cylindrical section of the vessel, not including the head (L).
 1.2 The Objective Function.
   𝑀𝑖𝑛𝑖𝑚𝑖𝑧𝑒 𝑓(𝑅, 𝐿,Ts, Th) = 0.6224Ts𝑅𝐿 + 1.7781Th𝑅2 + 3.1661(Ts)2𝐿 + 19.84(Ts)2𝑅
 1.3 The Constraint Functions.
@@ -22,10 +19,7 @@ There are four(4) design variables:
 2. The Welded Beam Design Problem Formulation.
 2.1 The Design Variables.
   There are four(4) design variables:
-  1. The Height of weld (h).
-  2. The Length of weld (L).
-  3. The Height of the beam (t).
-  4. The Width of the beam (b).
+  The Height of weld (h), The Length of weld (L), The Height of the beam (t), The Width of the beam (b).
 2.2 The Objective Function.
   𝑀𝑖𝑛𝑖𝑚𝑖𝑧𝑒 𝑓(h,L,t,b) = 1.10471ℎ2𝐿 + 0.04811t𝑏 (14.0 + 𝐿)
 2.3 The Constraint Functions.
