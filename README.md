@@ -1,12 +1,12 @@
 # Engineering-Optimization-Algorithms-for-pressure-vessel-and-welded-beam-design using a gradient-based algorithm; Augumented Lagrangian Multiplier (ALM) with DPN and golden search methods and Particle Swarm Optimization respectively. 
 The design variables, objective functions and constraint functions are already defined, these algorithms were used to search for the best design variables to optimize the objective.
 1. The Pressure Vessel Design Problem Formulation.
-1.1 The Design Variables.
+1.1) The Design Variables.
 There are four(4) design variables:
   The thickness of the shell (Ts), The thickness of the head (Th), The inner radius (R), The length of the cylindrical section of the vessel, not including the head (L).
-1.2 The Objective Function.
+1.2) The Objective Function.
   𝑀𝑖𝑛𝑖𝑚𝑖𝑧𝑒 𝑓(𝑅, 𝐿,Ts, Th) = 0.6224Ts𝑅𝐿 + 1.7781Th𝑅2 + 3.1661(Ts)2𝐿 + 19.84(Ts)2𝑅
-1.3 The Constraint Functions.
+1.3) The Constraint Functions.
   Subject to: 0.0193𝑅 ≤ Ts
   0.00954𝑅 ≤ Th
   𝜋𝑅2𝐿 + 4/3𝜋𝑅3 ≥ 1296000
@@ -17,12 +17,12 @@ There are four(4) design variables:
   10 ≤ 𝐿 ≤ 200
   
 2. The Welded Beam Design Problem Formulation.
-2.1 The Design Variables.
+2.1) The Design Variables.
   There are four(4) design variables:
   The Height of weld (h), The Length of weld (L), The Height of the beam (t), The Width of the beam (b).
-2.2 The Objective Function.
+2.2) The Objective Function.
   𝑀𝑖𝑛𝑖𝑚𝑖𝑧𝑒 𝑓(h,L,t,b) = 1.10471ℎ2𝐿 + 0.04811t𝑏 (14.0 + 𝐿)
-2.3 The Constraint Functions.
+2.3) The Constraint Functions.
   Subject to: 𝜏 ≤ 𝜏max
   𝜎 ≤ 𝜎max
   ℎ ≤ 𝑏
